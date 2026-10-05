@@ -1,0 +1,8 @@
+# Deployment dependencies
+inference-sdk
+opencv-python
+Pillow
+
+# PyTorch/torchvision were installed separately using the CUDA 12.6
+# PyTorch index for the NVIDIA MX250 deployment environment.
+# Deployment environment: Python 3.13

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# Raw / generated images
+data/
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.HEIC
+*.mov
+*.MOV
+
+# Model/cache artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+model_cache/
+.cache/
+.roboflow/
+
+# Generated inference output
+results/all_images/
+results/v8_rfdetr_small/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
